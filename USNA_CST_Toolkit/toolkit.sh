@@ -9,7 +9,7 @@ sudo apt full-upgrade
 
 #create toolkit directory
 mkdir ~/USNA_CST_Toolkit
-mv ./resource.zip ~/USNA_CST_Toolkit
+mv resource.zip ~/USNA_CST_Toolkit
 cd ~/USNA_CST_Toolkit
 unzip resource.zip
 
