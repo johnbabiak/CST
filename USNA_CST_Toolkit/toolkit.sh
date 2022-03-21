@@ -36,7 +36,15 @@ sudo apt-get update
 # binwalk
 # hashdeep
 # exiftool
-sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool 
+# toilet
+# lolcat
+sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool toilet lolcat
+
+#set up anna generator
+chmod 700 anna_generator
+chmod 755 g_words.txt
+sudo mv anna_generator /usr/bin
+sudo mv g_words.txt /usr/bin
 
 #fix mongodb permissions
 chown -R mongodb:mongodb /var/lib/mongodb
