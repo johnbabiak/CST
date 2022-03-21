@@ -42,18 +42,18 @@ sudo apt-get update
 sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool toilet lolcat
 
 #set up anna generator
-chmod 700 anna_generator
-chmod 755 g_words.txt
-sudo mv anna_generator /usr/bin
-sudo mv g_words.txt /usr/bin
+chmod 700 USNA_CST_Toolkit_src/anna_generator
+chmod 755 USNA_CST_Toolkit_src/g_words.txt
+sudo mv USNA_CST_Toolkit_src/anna_generator /usr/bin
+sudo mv USNA_CST_Toolkit_srcg_words.txt /usr/bin
 
 #fix mongodb permissions
 chown -R mongodb:mongodb /var/lib/mongodb
 chown mongodb:mongodb /tmp/mongodb-27017.sock
 
 #start burpsuite installer
-chmod 755 burpsuite_community_linux_v2022_1_1.sh
-./src/burpsuite_community_linux_v2022_1_1.sh
+chmod 755 USNA_CST_Toolkit_src/burpsuite_community_linux_v2022_1_1.sh
+./USNA_CST_Toolkit_src/burpsuite_community_linux_v2022_1_1.sh
 
 #RSACtfTool
 git clone https://github.com/Ganapati/RsaCtfTool.git
