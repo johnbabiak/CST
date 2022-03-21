@@ -45,7 +45,7 @@ sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org sqlite3 joh
 chmod 700 USNA_CST_Toolkit_src/anna_generator
 chmod 755 USNA_CST_Toolkit_src/g_words.txt
 sudo mv USNA_CST_Toolkit_src/anna_generator /usr/bin
-sudo mv USNA_CST_Toolkit_srcg_words.txt /usr/bin
+sudo mv USNA_CST_Toolkit_src/g_words.txt /usr/bin
 
 #fix mongodb permissions
 chown -R mongodb:mongodb /var/lib/mongodb
