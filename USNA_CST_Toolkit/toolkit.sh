@@ -39,7 +39,7 @@ sudo apt-get update
 # exiftool
 # toilet
 # lolcat
-sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool toilet lolcat
+sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org mongodb-server-core sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool toilet lolcat
 
 #set up anna generator
 chmod 700 USNA_CST_Toolkit_src/anna_generator
@@ -48,8 +48,8 @@ sudo mv USNA_CST_Toolkit_src/anna_generator /usr/bin
 sudo mv USNA_CST_Toolkit_src/g_words.txt /usr/bin
 
 #fix mongodb permissions
-chown -R mongodb:mongodb /var/lib/mongodb
-chown mongodb:mongodb /tmp/mongodb-27017.sock
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
 
 #start burpsuite installer
 chmod 755 USNA_CST_Toolkit_src/burpsuite_community_linux_v2022_1_1.sh
