@@ -41,7 +41,8 @@ sudo apt-get update
 # lolcat
 # curl
 # virtualenv
-sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org mongodb-server-core sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool toilet lolcat curl virtualenv
+# python
+sudo apt -y install python3-pip nmap dirb tcpdump sqlmap mongodb-org mongodb-server-core sqlite3 john p7zip aircrack-ng nasm openjdk-11-jdk wireshark tshark scalpel binwalk hashdeep exiftool toilet lolcat curl virtualenv python
 
 #set up anna generator
 chmod 700 USNA_CST_Toolkit_src/anna_generator
