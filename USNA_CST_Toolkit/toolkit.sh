@@ -62,7 +62,7 @@ chmod 755 USNA_CST_Toolkit_src/burpsuite_community_linux_v2022_1_1.sh
 git clone https://github.com/Ganapati/RsaCtfTool.git
 
 #Ghidra
-git clone https://github.com/NationalSecurityAgency/ghidra.git
+unzip USNA_CST_Toolkit_src/ghidra_10.1.2_PUBLIC_20220125.zip
 
 #pwndbg
 git clone https://github.com/pwndbg/pwndbg
